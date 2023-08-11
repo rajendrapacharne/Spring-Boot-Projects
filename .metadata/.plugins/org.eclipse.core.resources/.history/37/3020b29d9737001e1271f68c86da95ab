@@ -1,0 +1,12 @@
+package com.Rajendra.SpringMvcBoot;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HomeController {
+
+	public static void home()
+	{
+		System.out.println("This is home Page ");
+	}
+}
